@@ -1,0 +1,21 @@
+{
+    "name": "auzan/hostlaz",
+    "description": "Code by HostLaz",
+    "keywords": ["laravel", "hostlaz", "api"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Auzan Lazuardi"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "guzzlehttp/guzzle": "~6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "HOSTLAZ\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
